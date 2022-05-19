@@ -1,5 +1,6 @@
 
-const gameObject = {
+const gameObject = function() {
+    let object = {
     home: {
         teamName: "Brooklyn Nets",
         colors: ["Black", "White"],
@@ -62,5 +63,9 @@ const gameObject = {
         players: {},
     }
 }
+console.log(object)
+}
 
 console.log(gameObject())
+
+
